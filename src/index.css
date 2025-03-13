@@ -80,6 +80,7 @@ body.has-avatar:not(.has-cover-background) .card .cover {
   left: 50%;
   width: 10rem;
   height: 10rem;
+  background-color: rgb(from var(--color-bg-2) r g b / 0.8);
   border: 0.2rem solid rgb(from var(--color-bg-2) r g b / 0.8);
   border-radius: 50%;
   transform: translateX(-50%);
