@@ -41,4 +41,14 @@ Estos se guardarán en una nueva carpeta llamada `dist`.
 
 ### Consideraciones
 
-Si el proyecto en producción no se va a servir desde el directorio raíz, reemplaza el valor de la constante `dir`, ubicado en el archivo `src/main.jsx`, por la ruta del proyecto. De lo contrario, puedes dejarlo intacto o, mejor aun, reemplazarlo por una cadena vacía.
+Si el proyecto en producción no se va a servir desde el directorio raíz, reemplaza el valor de la constante `dir`, ubicado en el archivo `src/main.jsx`, por la ruta del proyecto. Tomemos como ejemplo mi caso, en donde el proyecto está dentro de una carpeta llamada `player-card` en mi sito web en Netlify:
+
+```
+const dir = "player-card";
+```
+
+En caso contrario, puedes dejarlo intacto o, mejor aun, reemplazarlo por una cadena de texto vacía:
+
+```
+const dir = "";
+```
