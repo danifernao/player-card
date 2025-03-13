@@ -244,15 +244,13 @@ body.sidebar-visible .sidebar {
   list-style: none;
 }
 
-.sidebar li {
-  padding: 1rem 0;
-}
-
 .sidebar li:not(:last-of-type) {
   border-bottom: 0.03rem solid #BBB;
 }
 
 .sidebar a {
+  display: block;
+  padding: 1rem 0;
   text-decoration: none;
   color: var(--color-bg-3);
 }
