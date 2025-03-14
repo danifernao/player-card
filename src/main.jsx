@@ -4,12 +4,12 @@ import { BrowserRouter } from "react-router";
 import "./index.css";
 import App from "./App.jsx";
 
-// Ruta del proyecto.
-const dir = window.location.pathname.replace(/(\/[^/]+)$/, "");
+// URL base.
+const basename = window.location.pathname.replace(/(\/[^/]+)$/, "");
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename={dir}>
+    <BrowserRouter basename={basename}>
       <App />
     </BrowserRouter>
   </StrictMode>
