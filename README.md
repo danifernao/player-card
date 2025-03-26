@@ -1,6 +1,6 @@
 # Tarjetas para compartir UID de videjuegos
 
-Un proyecto personal elaborado con React para compartir en un solo lugar mis UID (identificación de usuario) de los videojuegos multijugador en línea que juego.
+Página web elaborada con React para compartir en un solo lugar mis UID de los videojuegos multijugador en línea que juego.
 
 ![Captura de pantalla del proyecto](/screenshot.png)
 
